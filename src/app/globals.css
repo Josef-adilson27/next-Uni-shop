@@ -10,15 +10,15 @@ footer {
   /* border: 1px solid blue; */
 }
 
-input {
-}
 
 
-.dd{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,300px);
+.d{
+  width: 30px;
+  height: 30px;
+  display: flex;
   justify-content: center;
-  gap: 10px;
-
+  align-items: center;
+  border: solid 1px silver ;
+  
+  
 }

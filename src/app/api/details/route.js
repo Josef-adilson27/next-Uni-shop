@@ -3,17 +3,21 @@ export async function GET(request) {
   const res = await data.json();
 
   const { searchParams } = new URL(request.url);
-  const name = searchParams.get("name");
+
+  const category = searchParams.get("category");
+
   const id = searchParams.get("id");
 
-  let Result = [];
+  let arrayOfProducts = [];
 
   for (const key in res) {
-    if (key === name) {
-      Result  = res[key].prducts.filter(item=>item.id==id)
+    if(key===category){
+     arrayOfProducts = res[key].products
     }
   }
 
-  return Response.json(Result);
-  
+  const Item = arrayOfProducts.filter(item=>item.id===id);
+
+  return Response.json(Item);
+
 }

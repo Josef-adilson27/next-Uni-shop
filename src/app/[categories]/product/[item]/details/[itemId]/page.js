@@ -1,33 +1,31 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
-const Page = async ({params}) => {
+import { useDispatch, useSelector } from "react-redux";
+import { detail } from "../../../../../../../redux/slices/overall";
+import Slider from "@/app/components/Slider";
 
- 
+const Page = ({ params }) => {
 
-  const get = async () => {
-    const data = await fetch(
-      `http://localhost:3000/api/details?name=${params.categories}&id=${params.itemId}`,
-      { cache: "no-store" }
-    );
-    const res = data.json();
-    return res;
-  };
+  const { data } = useSelector((state) => state.genaralFunctions);
+  const distpatch = useDispatch();
+
 
   
-  const a = await get();
-  
-   console.log(a);
+  useEffect(() => {
+    distpatch(detail({ category: params.categories, id: params.itemId }));
+  }, []);
+
 
   return (
     <div>
-        {
-            a.map(item=>(
-                <div>
-                    <h1>{item.make}</h1>
-                    <h1>{item.model}</h1>
-                </div>
-            ))
-        }
+      {data.map((item) => (
+        <div>
+          <Slider data={item.img}/>
+          <h1>{item.make}</h1>
+          <h1>{item.model}</h1>
+        </div>
+      ))}
     </div>
   );
 };

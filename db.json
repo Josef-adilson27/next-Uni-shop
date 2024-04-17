@@ -3,58 +3,32 @@
  "data": {
    "cars":{ 
        "pic":"/carsSale2.png",
-       "prducts":[
+       "products":[
         {
           "id": "4gdsfs",
           "city_mpg": 21,
           "class": "midsize car",
-          "combination_mpg": 21,
+          "combination_mpg": 25,
           "cylinders": 4,
-          "displacement": 2.2,
+          "displacement": 2.1,
           "drive": "fwd",
-          "fuel_type": "petrol",
+          "fuel_type": "gas",
           "highway_mpg": 26,
           "make": "audi",
           "model": "a3",
-          "transmission": "a",
-          "year": 2005,
-          "img": "https://ucarecdn.com/dbbc13ac-2c84-44a9-8f60-126e0fa1fd28/-/preview/1000x664/"
-        },
-        {
-          "id": "4553sfs",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "audi",
-          "model": "a4",
           "transmission": "b",
-          "year": 2002,
-          "img": "https://ucarecdn.com/aac16c8a-0b92-47f5-8d23-9a494f8698cd/-/preview/900x540/"
+          "year": 2021,
+          "img":[
+            "https://ucarecdn.com/9d5bdacc-89f4-4be5-be64-a5f1d2adba9a/-/preview/1000x695/",
+            "https://ucarecdn.com/0d64e5ca-6bb5-4d14-a003-3a4c0800cccc/-/preview/1000x695/",
+            "https://ucarecdn.com/72fd2ba3-ddac-4915-ba91-e23cc098ab41/audia3additiaonal3.jpg",
+            "https://ucarecdn.com/339109ee-61d5-46d8-80e9-95a147bcf189/audia3additiaonal4.jpg"
+          ]
+
         },
         {
-          "id": "443sfs",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "audi",
-          "model": "a5",
-          "transmission": "a",
-          "year": 2002,
-          "img": "https://ucarecdn.com/8ccdea30-ad97-496e-ae2e-82c97e7a480b/-/preview/800x600/"
-        },
-        {
-          "id": "4dfdgsfs",
-          "city_mpg": 21,
+          "id": "4452",
+          "city_mpg": 41,
           "class": "midsize car",
           "combination_mpg": 21,
           "cylinders": 4,
@@ -64,218 +38,29 @@
           "highway_mpg": 26,
           "make": "audi",
           "model": "a6",
-          "transmission": "b",
-          "year": 1993,
-          "img": "https://ucarecdn.com/7d003f98-4b9f-4cfa-8ddf-a2be1312640b/-/preview/800x450/"
-        },
-        {
-          "id": "3tet",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "audi",
-          "model": "a8",
-          "transmission": "a",
-          "year": 2002,
-          "img": "https://ucarecdn.com/d23ede58-64ef-4889-a840-1c9fd2f5fcf8/-/preview/775x430/"
-        },
-        {
-          "id": "78sfs",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "dodge",
-          "model": "challenger",
-          "transmission": "b",
-          "year": 1992,
-          "img": "https://ucarecdn.com/610999a0-77af-4d68-bb09-95527fc4c677/-/preview/713x371/"
-        },
-        {
-          "id": "5947sfs",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "dodge",
-          "model": "RAM",
-          "transmission": "a",
-          "year": 2002,
-          "img": "https://ucarecdn.com/308901fb-3000-4a3d-a2a5-ff773fb8deb6/-/preview/800x450/"
-        },
-        {
-          "id": "54sfs56",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "dodge",
-          "model": "durango",
-          "transmission": "b",
-          "year": 2022,
-          "img": "https://ucarecdn.com/f1de6ab9-8301-4c17-a97e-1eba71b40be7/-/preview/1000x664/"
-        },
-        {
-          "id": "rrr65e",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "lada",
-          "model": "vesta",
-          "transmission": "b",
-          "year": 2002,
-          "img": "https://ucarecdn.com/f7f2528c-dc0e-4861-8a91-c2f165cd45e4/-/preview/620x400/"
-        },
-        {
-          "id": "54re",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "lada",
-          "model": "granta",
-          "transmission": "a",
-          "year": 2018,
-          "img": "https://ucarecdn.com/63b21394-cb74-42f6-837d-6e91a634b98d/-/preview/798x400/"
-        },
-        {
-          "id": "yuop9",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "lada",
-          "model": "priora",
-          "transmission": "b",
-          "year": 2002,
-          "img": "https://ucarecdn.com/e260631e-c0f6-4ae4-8221-952df1343c7a/-/preview/720x427/"
-        },
-        
-        {
-          "id": "563re",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "toyota",
-          "model": "camry",
-          "transmission": "b",
-          "year": 2023,
-          "img": "https://ucarecdn.com/fff37071-3677-4e96-973b-6f33a9e67068/-/preview/1000x664/"
-        },
-        {
-          "id": "rrre",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "toyota",
-          "model": "carolla",
           "transmission": "a",
           "year": 2023,
-          "img": "https://ucarecdn.com/3619b45d-08c8-4a52-abdd-5cc6f2cd822c/-/preview/999x774/"
-        },
-        {
-          "id": "dfg4",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "toyota",
-          "model": "land cruiser",
-          "transmission": "a",
-          "year": 2023,
-          "img": "https://ucarecdn.com/60fee0dc-0d22-4b17-ada5-f251f6bef739/-/preview/1000x660/"
-        },
-        
-        {
-          "id": "rrf34e",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "porshe",
-          "model": "panamera",
-          "transmission": "a",
-          "year": 2023,
-          "img": "https://ucarecdn.com/2500663b-6424-4e62-bc6e-acfbb85011b9/-/preview/1000x750/"
-        },
-        {
-          "id": "rrr34iie",
-          "city_mpg": 21,
-          "class": "midsize car",
-          "combination_mpg": 21,
-          "cylinders": 4,
-          "displacement": 2.2,
-          "drive": "fwd",
-          "fuel_type": "petrol",
-          "highway_mpg": 26,
-          "make": "porshe",
-          "model": "cayman",
-          "transmission": "b",
-          "year": 2019,
-          "img": "https://ucarecdn.com/a7855a48-db85-4e67-9da4-9d9908a2dc4f/-/preview/1000x500/"
+          "img":[
+            "https://ucarecdn.com/98b94154-668e-431c-b513-8e59e8bef227/-/preview/1000x664/",
+            "https://ucarecdn.com/2323d5e9-5169-4e2a-8777-00d4e716bfac/-/preview/1000x666/",
+            "https://ucarecdn.com/98ac391e-48f6-4572-a430-82c5a5b0645e/-/preview/1000x666/",
+            "https://ucarecdn.com/56430f53-424a-44ad-b48c-7ce375bcbeab/-/preview/1000x666/",
+            "https://ucarecdn.com/bd276d8d-a6f1-409f-bc10-79204ee4a86d/-/preview/1000x666/"
+          ]
         }
       ]
      },
    "phones":{ 
       "pic":"/carsSale.png",
-      "prducts":[
+      "products":[
         {
           "id":"1",
-          "name":"samsung",
+          "make":"samsung",
           "inch":"14.5"
         },
         {
           "id":"2",
-          "name":"iPhone",
-          "inch":"11.5"
+          "make":"iPhone"
         }
       ]
     }         

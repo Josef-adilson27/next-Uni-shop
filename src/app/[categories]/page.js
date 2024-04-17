@@ -14,21 +14,23 @@ const Page = async ({ params }) => {
     return res;
   };
 
+  const a = await get();
+  
+
   const ComponentsRender = () => {
     switch (params.categories) {
       case "cars":
-        return <Cars category={params.categories}  data={a} />;
+        return <Cars  category={params.categories} data={a.products}  />;
       case "phones":
-        return <Phones category={params.categories} data={a} />;
+        return <Phones category={params.categories} data={a.products} />;
       default:
         return <NotFound />;
     }
   };
 
-  const a = await get();
   
   return (
-    <div className="grid gap-[10px] grid-cols-[repeat(auto-fit,_minmax(130px,_1fr))] justify-items-center">
+    <div className="grid  gap-[10px] grid-cols-[repeat(auto-fit,_minmax(130px,_1fr))] justify-items-center">
       {ComponentsRender()}
     </div>
   );
