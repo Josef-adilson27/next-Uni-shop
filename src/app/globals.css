@@ -2,23 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'primeicons/primeicons.css';
+
 body {
   padding: 0;
   margin: 0;
-}
-footer {
-  /* border: 1px solid blue; */
-}
-
-
-
-.d{
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid 1px silver ;
-  
-  
 }

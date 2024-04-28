@@ -2,9 +2,11 @@
 import style from "./index.module.css";
 
 
+///не докончен
+
 
 const paymentPanel = (
-  <div className="flex w-[300px] bg-[rgb(4,_6,_58)]">
+  <div className="flex w-[300px] text-white bg-[rgb(4,_6,_58)]">
     <div className="flex flex-col  w-full">
       <div className="flex items-center justify-center w-full h-[100px]">
         <div className="">

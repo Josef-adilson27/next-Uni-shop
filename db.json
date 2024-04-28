@@ -1,12 +1,11 @@
-
 {
- "data": {
-   "cars":{ 
-       "pic":"/carsSale2.png",
-       "products":[
+  "data": {
+    "cars": {
+      "pic": "/carsSale2.png",
+      "products": [
         {
           "id": "4gdsfs",
-          "city_mpg": 21,
+          "mileage": 12000,
           "class": "midsize car",
           "combination_mpg": 25,
           "cylinders": 4,
@@ -14,21 +13,22 @@
           "drive": "fwd",
           "fuel_type": "gas",
           "highway_mpg": 26,
-          "make": "audi",
+          "make": "bmw",
           "model": "a3",
           "transmission": "b",
           "year": 2021,
-          "img":[
+          "img": [
             "https://ucarecdn.com/9d5bdacc-89f4-4be5-be64-a5f1d2adba9a/-/preview/1000x695/",
-            "https://ucarecdn.com/0d64e5ca-6bb5-4d14-a003-3a4c0800cccc/-/preview/1000x695/",
-            "https://ucarecdn.com/72fd2ba3-ddac-4915-ba91-e23cc098ab41/audia3additiaonal3.jpg",
-            "https://ucarecdn.com/339109ee-61d5-46d8-80e9-95a147bcf189/audia3additiaonal4.jpg"
-          ]
 
+            "https://ucarecdn.com/72fd2ba3-ddac-4915-ba91-e23cc098ab41/audia3additiaonal3.jpg",
+            "https://ucarecdn.com/339109ee-61d5-46d8-80e9-95a147bcf189/audia3additiaonal4.jpg",
+
+            "https://ucarecdn.com/0d64e5ca-6bb5-4d14-a003-3a4c0800cccc/-/preview/1000x695/"
+          ]
         },
         {
           "id": "4452",
-          "city_mpg": 41,
+          "mileage": 6500,
           "class": "midsize car",
           "combination_mpg": 21,
           "cylinders": 4,
@@ -36,33 +36,397 @@
           "drive": "fwd",
           "fuel_type": "petrol",
           "highway_mpg": 26,
-          "make": "audi",
+          "make": "kia",
           "model": "a6",
           "transmission": "a",
           "year": 2023,
-          "img":[
-            "https://ucarecdn.com/98b94154-668e-431c-b513-8e59e8bef227/-/preview/1000x664/",
-            "https://ucarecdn.com/2323d5e9-5169-4e2a-8777-00d4e716bfac/-/preview/1000x666/",
+          "img": [
             "https://ucarecdn.com/98ac391e-48f6-4572-a430-82c5a5b0645e/-/preview/1000x666/",
             "https://ucarecdn.com/56430f53-424a-44ad-b48c-7ce375bcbeab/-/preview/1000x666/",
-            "https://ucarecdn.com/bd276d8d-a6f1-409f-bc10-79204ee4a86d/-/preview/1000x666/"
+            "https://ucarecdn.com/bd276d8d-a6f1-409f-bc10-79204ee4a86d/-/preview/1000x666/",
+            "https://ucarecdn.com/2323d5e9-5169-4e2a-8777-00d4e716bfac/-/preview/1000x666/"
+
           ]
-        }
-      ]
-     },
-   "phones":{ 
-      "pic":"/carsSale.png",
-      "products":[
-        {
-          "id":"1",
-          "make":"samsung",
-          "inch":"14.5"
         },
         {
-          "id":"2",
-          "make":"iPhone"
-        }
+          "id": "44ffgh52",
+          "mileage": 2500,
+          "class": "midsize car",
+          "combination_mpg": 23,
+          "cylinders": 6,
+          "displacement": 3.2,
+          "drive": "fwd",
+          "fuel_type": "gas",
+          "highway_mpg": 26,
+          "make": "toyota",
+          "model": "camry",
+          "transmission": "a",
+          "year": 2021,
+          "img": [
+            "https://ucarecdn.com/dcdee6c3-061a-476d-a246-bea43e851920/-/preview/1000x750/",
+            "https://ucarecdn.com/dab5ccf0-6f18-486d-aab4-18173bb1eb16/-/preview/1000x750/",
+            "https://ucarecdn.com/e9fab92e-82fb-423a-b86f-81f7f3c38417/-/preview/1000x750/",
+            "https://ucarecdn.com/e870d404-5bf4-46b8-92e0-376021ea569f/-/preview/1000x750/",
+            "https://ucarecdn.com/174a0306-f89f-4f63-b1b4-604a77d93645/-/preview/1000x750/"
+          ]
+        },
+        {
+          "id": "44f52",
+          "mileage": 2500,
+          "class": "midsize car",
+          "combination_mpg": 23,
+          "cylinders": 6,
+          "displacement": 5.5,
+          "drive": "fwd",
+          "fuel_type": "petrol",
+          "highway_mpg": 26,
+          "make": "BMW",
+          "model": "5 series",
+          "transmission": "b",
+          "year": 2021,
+          "img": [
+            "https://ucarecdn.com/2dc327e1-42c7-4e19-8774-4d37974a7264/-/preview/1000x750/",
+            "https://ucarecdn.com/1b76fa7e-195a-45a0-8d63-f12f0243a657/-/preview/1000x750/",
+            "https://ucarecdn.com/8985a6a2-2179-4b65-b27d-bec2ea2234ad/-/preview/1000x750/",
+            "https://ucarecdn.com/0e4789cd-9686-4453-9578-2377a5b37051/-/preview/1000x750/",   
+            "https://ucarecdn.com/84c11581-40a1-49da-a4e8-eb8d62b2f7c3/-/preview/1000x750/",
+            "https://ucarecdn.com/59b9de71-3bbc-430e-b572-9851773ef64c/-/preview/1000x750/" 
+          ]
+        },
+        {
+          "id": "44444f52",
+          "mileage": 2500,
+          "class": "midsize car",
+          "combination_mpg": 23,
+          "cylinders": 6,
+          "displacement": 3.5,
+          "drive": "fwd",
+          "fuel_type": "petrol",
+          "highway_mpg": 36,
+          "make": "toyota",
+          "model": "camry",
+          "transmission": "b",
+          "year": 2021,
+          "img": [
+            "https://ucarecdn.com/a92bc060-173a-4eaf-82f8-025e3d2f6234/-/preview/1000x750/",
+            "https://ucarecdn.com/376fb4bf-4990-40f7-88ae-ceaf50738ca3/-/preview/1000x750/",
+            "https://ucarecdn.com/d16b7f6f-93bd-4229-b5f3-4904665ab84b/-/preview/1000x750/",
+            "https://ucarecdn.com/9fbfec3b-0af6-476d-8d52-6c31ce665cd0/-/preview/1000x750/",
+            "https://ucarecdn.com/1c8010dc-4b98-4b31-91df-1a26974f0e36/-/preview/1000x750/"
+          ]
+        },
+        {
+            "id": "4fgazzzf52",
+            "mileage": 1200,
+            "class": "midsize car",
+            "combination_mpg": 33,
+            "cylinders": 6,
+            "displacement": 2.5,
+            "drive": "fwd",
+            "fuel_type": "petrol",
+            "highway_mpg": 23,
+            "make": "audi",
+            "model": "a4",
+            "transmission": "b",
+            "year": 2021,
+            "img": [
+              "https://ucarecdn.com/d99359fb-1c91-42ce-ba80-d2d8ec79b9f8/-/preview/1000x750/",
+              "https://ucarecdn.com/ac1cea9a-0129-4d4b-8a2c-d1ed9db636bc/-/preview/1000x750/",
+              "https://ucarecdn.com/bf08ff5c-c5f3-492d-bd87-e51121f8b4a6/-/preview/1000x750/",
+              "https://ucarecdn.com/e685a2a2-7e13-4825-9f36-6ee7249d058b/-/preview/1000x750/"
+            ]
+        },
+        {
+          "id": "zghfff52",
+          "mileage": 14500,
+          "class": "midsize car",
+          "combination_mpg": 21,
+          "cylinders": 4,
+          "displacement": 2.0,
+          "drive": "fwd",
+          "fuel_type": "gas",
+          "highway_mpg": 53,
+          "make": "kia",
+          "model": "spotagw",
+          "transmission": "a",
+          "year": 2021,
+          "img": [
+            "https://ucarecdn.com/75f03704-c172-4013-9eb7-a759b0e2ac27/-/preview/1000x750/",
+            "https://ucarecdn.com/b0a53d8f-49bf-4b18-9fd6-c31012cd1c3c/-/preview/1000x750/",
+            "https://ucarecdn.com/e756dbcf-a228-4898-ae82-f2de2abc8d1d/-/preview/1000x750/",
+            "https://ucarecdn.com/8fe45bc0-5828-40a4-82c0-14fa37e94d16/-/preview/1000x750/",
+            "https://ucarecdn.com/b84dd2d2-c9b5-47cd-8dda-94a0dfe098e3/-/preview/1000x750/"
+          ]
+        },
+        {
+          "id": "5550023",
+          "mileage": 14500,
+          "class": "midsize car",
+          "combination_mpg": 21,
+          "cylinders": 4,
+          "displacement": 2.0,
+          "drive": "fwd",
+          "fuel_type": "gas",
+          "highway_mpg": 53,
+          "make": "haval",
+          "model": "f7",
+          "transmission": "a",
+          "year": 2021,
+          "img": [
+           "https://ucarecdn.com/0dbd5c74-2b0f-45bf-9b36-ed435b3171cf/-/preview/1000x750/",
+           "https://ucarecdn.com/f8407f93-789a-4bf8-972f-1298020df287/-/preview/1000x750/",
+           "https://ucarecdn.com/78bbc162-9f74-4c14-a04c-b8b7950a1d15/-/preview/1000x750/",
+           "https://ucarecdn.com/175bdb90-5a97-4e28-980e-cda2f2a72bb3/-/preview/1000x750/",
+           "https://ucarecdn.com/ee48cfd7-10ff-4d32-9f42-c4babaf51b00/-/preview/1000x750/"
+          ]
+        },
+        {
+          "id": "rrrr23",
+          "mileage": 14500,
+          "class": "midsize car",
+          "combination_mpg": 21,
+          "cylinders": 4,
+          "displacement": 2.0,
+          "drive": "fwd",
+          "fuel_type": "gas",
+          "highway_mpg": 53,
+          "make": "toyota",
+          "model": "highlander",
+          "transmission": "a",
+          "year": 2021,
+          "img": [
+           "https://ucarecdn.com/789d0543-eb8a-46e1-86ba-6a104ed398a7/-/preview/1000x750/",
+           "https://ucarecdn.com/b86e3fc0-9d41-4581-9517-39ff729da513/-/preview/1000x750/",
+           "https://ucarecdn.com/5ea9215c-07fd-46aa-85d3-e146c6e97443/-/preview/1000x750/",
+           "https://ucarecdn.com/89ab9f8c-7251-4d6a-ba70-9d84a5007baf/-/preview/1000x750/",
+           "https://ucarecdn.com/7cf19bad-6a3e-4bef-8f83-a93d34069aa7/-/preview/1000x750/"
+          
+          ]
+        }    
       ]
-    }         
+    },
+    "phones": {
+      "pic": "https://ucarecdn.com/53815c85-50fe-48a2-aefb-4c8a8568d746/-/preview/1000x407/",
+      "products": [
+        {
+          "id": "234dd",
+          "make": "samsung",
+          "model": "14 PRO MAX",
+          "NetworkService": "Unlocked for All Carriers",
+          "Operating System": "iOS",
+          "CellularTechnology": "5G",
+          "inch": "6.7",
+          "camera": "50mp",
+          "rom": "128",
+          "price": "7000.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [
+           "https://ucarecdn.com/df44bbbf-cc44-4125-bb5c-d59cffaf67d6/-/preview/709x965/",
+           "https://ucarecdn.com/f125dc6c-15b5-4296-8fb8-e470493a4461/-/preview/484x977/",
+           "https://ucarecdn.com/df44bbbf-cc44-4125-bb5c-d59cffaf67d6/-/preview/709x965/",
+           "https://ucarecdn.com/9b79ecd3-9afe-4e5c-a346-fc5f07c4b40b/-/preview/993x992/"
+          
+          ]
+        },
+        {
+          "id": "4ikk3d",
+          "make": "samsung",
+          "model": "14 PRO MAX",
+          "NetworkService": "Unlocked for All Carriers",
+          "Operating System": "iOS",
+          "CellularTechnology": "5G",
+          "inch": "6.7",
+          "camera": "50mp",
+          "rom": "128",
+          "price": "7000.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/dd1d5fe2-abd6-4d69-9673-2184f3d0d830/-/preview/425x579/",
+           "https://ucarecdn.com/a40b233a-50c8-4acd-b06c-bc464a052df5/-/preview/425x425/",
+           "https://ucarecdn.com/8fbab616-ebd1-49d3-aeac-22466c22a994/-/preview/425x425/",
+           "https://ucarecdn.com/dd1d5fe2-abd6-4d69-9673-2184f3d0d830/-/preview/425x579/"
+         
+          ]
+        },
+        {
+          "id": "99tgg",
+          "make": "samsung",
+          "model": "14 PRO MAX",
+          "NetworkService": "Unlocked for All Carriers",
+          "Operating System": "iOS",
+          "CellularTechnology": "5G",
+          "inch": "6.7",
+          "camera": "50mp",
+          "rom": "128",
+          "price": "7000.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/d830f6cc-2f66-47e2-845e-f9725c3c4855/-/preview/425x499/",
+           "https://ucarecdn.com/5c461b0a-6d6f-436a-90d9-255f0b54bdde/-/preview/425x425/",
+           "https://ucarecdn.com/b12ba60f-dcb0-4956-9fd7-fc43fe1ceb08/-/preview/425x425/",
+           "https://ucarecdn.com/d9a10050-78fb-45e5-8966-8e078df50810/-/preview/425x425/"
+         
+          ]
+        },
+        {
+          "id": "3232ff",
+          "make": "mataroll",
+          "model": "moto",
+          "NetworkService": "Unlocked for All Carriers",
+          "Operating System": "iOS",
+          "CellularTechnology": "5G",
+          "inch": "6.7",
+          "camera": "48mp",
+          "rom": "128",
+          "price": "3500.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/28954e54-ab28-4bf7-8f71-551e2acf0db7/-/preview/425x565/",
+           "https://ucarecdn.com/0de76952-48fc-4a75-89f6-6a4000a64f92/-/preview/425x921/",
+           "https://ucarecdn.com/4c3426f0-5b1d-41b1-8314-77ca1f4cd676/-/preview/425x920/",
+           "https://ucarecdn.com/043f6775-f29c-4cc6-862f-02d2cafe8175/-/preview/339x1000/"        
+          ]
+        },
+        {
+          "id": "bryghyvv",
+          "make": "mataroll",
+          "model": "moto",
+          "NetworkService": "Unlocked for All Carriers",
+          "Operating System": "iOS",
+          "CellularTechnology": "5G",
+          "inch": "6.7",
+          "camera": "48mp",
+          "rom": "128",
+          "price": "3500.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/146c1c2b-f31f-4f64-b2b3-bc3bad137ff8/-/preview/425x425/",
+           "https://ucarecdn.com/9f4038e2-87f9-4579-aaee-2209a5d45c77/-/preview/425x425/",
+           "https://ucarecdn.com/1a2747f5-f232-4742-ab38-9262b880b9bf/-/preview/425x425/"
+          ]
+        },
+        {
+          "id": "99998",
+          "make": "Straight",
+          "model": "Talk Apple",
+          "NetworkService": "",
+          "Operating System": "android",
+          "CellularTechnology": "5G",
+          "inch": "5.7",
+          "camera": "28mp",
+          "rom": "128",
+          "price": "7500.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/6caea88b-5538-496f-9ed2-05e0c27594b4/-/preview/300x612/",
+           "https://ucarecdn.com/f91508b0-5293-4ed0-afdf-c9ec33685159/-/preview/399x550/",
+           "https://ucarecdn.com/5a4b453d-6c2d-4bc9-bd34-08fa0a84bccc/-/preview/388x768/",
+           "https://ucarecdn.com/19516463-cd63-4974-9e2b-5a0f132d5357/-/preview/425x389/"
+          ]
+        },
+        {
+          "id": "zzzz8",
+          "make": "Straight",
+          "model": "Talk Apple",
+          "NetworkService": "",
+          "Operating System": "android",
+          "CellularTechnology": "5G",
+          "inch": "5.7",
+          "camera": "28mp",
+          "rom": "128",
+          "price": "7500.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/725e843f-92a9-4720-bd41-d6f4b82ca006/-/preview/425x820/",
+           "https://ucarecdn.com/8a765164-227d-492d-8cfd-8e65dd3e941b/-/preview/425x651/",
+           "https://ucarecdn.com/e7534acc-6283-46ab-87e3-0cdc3b77a5ff/-/preview/425x587/",
+           "https://ucarecdn.com/7fcee21c-b03b-4ff3-8dac-4ec59d89b290/-/preview/425x574/"
+          ]
+        },
+        {
+          "id": "888",
+          "make": "Google",
+          "model": "Pixel 7 Pro",
+          "NetworkService": " Factory Unlocked",
+          "Operating System": "Android 8.1",
+          "CellularTechnology": "5G",
+          "inch": "9.5",
+          "camera": "78mp",
+          "rom": "64",
+          "price": "7500.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/1a441962-caa7-4c1a-a8a4-c322693f7962/-/preview/425x425/",
+           "https://ucarecdn.com/3e3528ee-164d-4bff-b897-10e21c067aaa/-/preview/425x425/",
+           "https://ucarecdn.com/04010e08-fae1-44c8-948d-22e5d9d0bcf7/-/preview/425x425/",
+           "https://ucarecdn.com/04010e08-fae1-44c8-948d-22e5d9d0bcf7/-/preview/425x425/"
+          ]
+        },
+        {
+          "id": "8jj88",
+          "make": "Google",
+          "model": "Pixel 7 Pro",
+          "NetworkService": " Factory Unlocked",
+          "Operating System": "Android 8.1",
+          "CellularTechnology": "5G",
+          "inch": "9.5",
+          "camera": "78mp",
+          "rom": "64",
+          "price": "7500.99",
+          "about":[
+            "THE APPLE PRO MAX 14 is the latest addition to Apple's line of premium smartphones, and it's a true powerhouse. With its stunning 6.7-inch OLED display, A16 Bionic chip, and 5G connectivity, this phone is designed to impress.",
+            "CAMERA SYSTEM - One of the standout features of the Pro Max 14 is its camera system. With a triple-lens setup that includes a 12MP ultra-wide lens, a 12MP wide lens, and a 12MP telephoto lens, this phone is capable of capturing stunning photos and videos in any lighting condition. The Pro Max 14 also features Apple's new ProRAW format, which allows for even more control over your photos.",
+            "BATTARAY - The Pro Max 14 also features a massive 4,500mAh battery, which provides all-day battery life even with heavy usage. And with 5G connectivity, you can enjoy lightning-fast download and upload speeds wherever you go.",
+            "DESIGN - The iPhone 14 Pro Max has a sleek and elegant design that feels premium in the hand. It has a flat 6.7-inch OLED display that covers almost the entire front of the device, with a pill-shaped notch at the top that houses the Face ID sensors and the selfie camera. The back of the device is made of textured matt glass that resists fingerprints and scratches, and the frame is made of stainless steel that adds durability and shine. The device comes in four beautiful colors: Space Black, Silver, Gold, and Deep Purple. The iPhone 14 Pro Max also has an IP68 rating, which means it can withstand water up to 6 meters deep for up to 30 minutes."
+          ],
+          "img": [  
+           "https://ucarecdn.com/5037f692-fd42-4c79-b445-3545a5813855/-/preview/425x425/",
+           "https://ucarecdn.com/df75d708-0071-4bbc-964d-6d75912cbc25/-/preview/425x425/",
+           "https://ucarecdn.com/fec98418-d231-4dad-8936-4830d79debf9/-/preview/425x425/",
+           "https://ucarecdn.com/b5bfe79a-4e82-4307-951c-08f61f77b8aa/-/preview/100x100/"
+          ]
+        }     
+      ]
+    }
   }
 }

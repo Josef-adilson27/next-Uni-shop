@@ -15,13 +15,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="">
-          <Header></Header>
-          <main className="w-full p-2">
-            <div>
-              <ReduxProvider>{children}</ReduxProvider>
-            </div>
-          </main>
+        <div className="min-h-[100vh] flex flex-col justify-between">
+          <div>
+            <Header></Header>
+            <main className="w-full p-2">
+              <div>
+                <ReduxProvider>{children}</ReduxProvider>
+              </div>
+            </main>
+          </div>
           <Footer />
         </div>
       </body>

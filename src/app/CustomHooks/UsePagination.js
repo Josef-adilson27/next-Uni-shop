@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function UseNavigation(data){
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [DataPerPage] = useState(10);
+  const [DataPerPage] = useState(8);
 
 
   const paginate = (pageNumber) => {
@@ -18,8 +18,9 @@ export default function UseNavigation(data){
 
   return{
     paginate,
-    currentProducts,
+    currentProducts, 
     DataPerPage,
     DataLength: data.length
   }
+
 }

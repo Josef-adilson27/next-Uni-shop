@@ -28,10 +28,31 @@ export const number = "+0000 000 00 00";
 export const email = "example@gmail.com";
 
 
-export const  get = async () => {
-   const data = await fetch('http://localhost:4000/data');
-   const res = data.json()
-   return res;
+/// получения категории товаров для начальной строницы
+
+
+//список товаров для search компонента....
+export const productsLists = {
+  'cars':[
+    'bmw',
+    'kia'
+  ],
+  'phones':[
+    "Apple",
+    "samsung",
+    "Xiaomi",
+    "Nokia",
+    "Asus",
+    "Htc",
+    "Sony",
+    "Poco",
+    "samsung1",
+    "samsung3",
+  ]
+
 }
-
-
+///список категории для search компонента...
+export const categories = [
+  "cars",
+  "phones"
+]

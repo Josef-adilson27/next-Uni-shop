@@ -10,7 +10,7 @@ const Pagination = ({ dataPerPage, totalData,paginate}) => {
   return (
     <nav className="flex  my-1 justify-center  ">
       {pageNumbers.map((number) => (
-        <p className="d " key={number} onClick={() => paginate(number)}>{number}</p>
+        <p className="w-8 h-8 bg-orange-500 rounded-3xl flex justify-center items-center" key={number} onClick={() => paginate(number)}>{number}</p>
       ))}
     </nav>
   );

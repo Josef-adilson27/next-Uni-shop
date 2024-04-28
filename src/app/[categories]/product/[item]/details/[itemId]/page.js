@@ -1,33 +1,33 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import CarsDetails from "@/app/components/cars/CarsDetails";
+import PhonesDetails from "@/app/components/phones/PhonesDetails";
 
-import { useDispatch, useSelector } from "react-redux";
-import { detail } from "../../../../../../../redux/slices/overall";
-import Slider from "@/app/components/Slider";
+//данный page динамический подставляет компонент Details в зависимости от searchParams (см. console.log(searchParams) )
 
-const Page = ({ params }) => {
+const Page = async ({ params }) => {
+  const get = async () => {
+    const data = await fetch(
+      `http://localhost:3000/api/details?category=${params.categories}&id=${params.itemId}`,
+      { cache: "no-store" }
+    );
+    return data.json();
+  };
 
-  const { data } = useSelector((state) => state.genaralFunctions);
-  const distpatch = useDispatch();
+  const data = await get();
 
+  ///здесь динамически подставляем компонент для отображения товаров
 
-  
-  useEffect(() => {
-    distpatch(detail({ category: params.categories, id: params.itemId }));
-  }, []);
+  const ComponentsRender = () => {
+    switch (params.categories) {
+      case "cars":
+        return <CarsDetails data={data} />;
+      case "phones":
+        return <PhonesDetails data={data} />;
+      default:
+        return <NotFound />;
+    }
+  };
 
-
-  return (
-    <div>
-      {data.map((item) => (
-        <div>
-          <Slider data={item.img}/>
-          <h1>{item.make}</h1>
-          <h1>{item.model}</h1>
-        </div>
-      ))}
-    </div>
-  );
+  return <div>{ComponentsRender()}</div>;
 };
 
 export default Page;

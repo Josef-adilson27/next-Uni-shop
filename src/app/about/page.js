@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Page = () => {
+const Page = ({searchParams}) => {
+    console.log(searchParams);
     return (
         <div> 
             <h1>about</h1>
