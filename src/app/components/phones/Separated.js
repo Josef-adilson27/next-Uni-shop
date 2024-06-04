@@ -196,38 +196,7 @@ export const StarRating = () => {
 ///вывод строковых свойств телефона на верху....
 export const characteristics = (param) => {
   
-  let arr = [];
-
-  for (const key in param) {
-    if(typeof param[key]==='string' && key!=='id'){
-     arr.push(param[key]);
-    }
-  }
-
-
-  return (
-    <div className="max-w-[500px]  flex flex-col justify-between gap-y-2 max-md:text-[20px]">
-      <div className="flex  flex-wrap gap-2">
-       {
-        arr.map(item=>(
-        <h1>{item.slice(0,1).toUpperCase()+item.slice(1).toLowerCase() },</h1>
-        ))
-       }
-      </div>
-
-      <div className="">
-        <StarRating />
-      </div>
-
-      <hr className="w-full" />
-      <div className="flex w-[250px] bg-amber-400 rounded-[50px]">
-        <div className="w-full flex gap-2  justify-around  ">
-          <p className="text-[red]">-10%</p>
-          <p className="font-[500]">$ 3,3333</p>
-        </div>
-      </div>
-    </div>
-  );
+  
 };
 
 

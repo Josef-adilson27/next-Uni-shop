@@ -1,5 +1,5 @@
 import CarsDetails from "@/app/components/cars/CarsDetails";
-import PhonesDetails from "@/app/components/phones/PhonesDetails";
+import PhonesDetails from "@/app/components/phones/phoneDetails/PhonesDetails";
 
 //данный page динамический подставляет компонент Details в зависимости от searchParams (см. console.log(searchParams) )
 
