@@ -1,0 +1,9 @@
+{
+    "name": "next-Uni-shop",
+    "short_name": "next-Uni-shop",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+  }

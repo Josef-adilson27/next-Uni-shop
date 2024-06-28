@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { categories } from "../../constants/consts";
 
 const CategorySearch = ({ category, setCategory }) => {
+  
   const [iconToggle, setIconToggle] = useState(false);
 
   const inputChange = (item) => {
@@ -35,12 +36,16 @@ const CategorySearch = ({ category, setCategory }) => {
         </div>
       </div>
       <div className="absolute mt-[1px] w-[250px] h-auto max-sm:w-[300px] z-[10] rounded-[10px] bg-slate-100">
+        {/* условный вывод списка категори(из constants/consts.js); */}     
         {iconToggle && (
           <div className="">
             {categories.map((item) => (
               <p
                 className="p-1 cursor-pointer"
                 key={item}
+                //1.по нажатию на текст передаем функцию в inputChange нажатый текст категории (список категории получаем из сonstants/consts/js)
+                //2.записываем текст  в searchCategory из SearchBox (SearchBox - родитель для searchCategory и ProductSearch)
+                //3.из SearchBox передаем его в ProductSearch и рендерим как
                 onClick={() => inputChange(item)}
               >
                 {item}

@@ -8,20 +8,24 @@ export const detail = createAsyncThunk("getDetails", async (param) => {
 const initialState = {
   value: [],
   data: [],
-  isLoading: false,
+  localStor:{
+    viewedCars:[]
+  }
 };
 
 export const overall = createSlice({
   name: "searchbar",
   initialState,
-  reducers: {},
+  reducers: {
+    addViewedCarsToRedux:(state,action)=>{
+      state.localStor.viewedCars = action.payload
+    }
+  },
   extraReducers: (builder) => {
-    builder.addCase(detail.fulfilled,(state, action) => {
-      state.data = action.payload
-    });
+   
   },
 });
 
-export const {} = overall.actions;
+export const {addViewedCarsToRedux} = overall.actions;
 
 export default overall.reducer;

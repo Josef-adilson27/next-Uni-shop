@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'primeicons/primeicons.css';
+@import "primeicons/primeicons.css";
+@import 'components/cars/CarsAdditionalStyles.css';
+
+:root {
+  --descrideText: 25px;
+  --buttonsPrimaryText: 20px;
+  --buttonsSecondaryText: 16px;
+
+  --bgPrimarySlate: #dbdde3;
+  --bgPrimarySlateActive: #ffffff;
+}
+
+
+
 
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(212, 213, 224);
+  background-color: rgb(237, 237, 243);
 }
+
+.ff {
+  -webkit-box-shadow: 0px 0px 11px -5px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 11px -5px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 11px -5px rgba(66, 68, 90, 1);
+}
+
+.activeShadow {
+  -webkit-box-shadow: 0px 4px 9px -5px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 4px 9px -5px rgba(66, 68, 90, 1);
+  box-shadow: 0px 4px 9px -5px rgba(66, 68, 90, 1);
+  background-color: #ffffff;
+}
+
+
+
+
+.f{
+    min-height: calc(100vh - 230px);
+}
+

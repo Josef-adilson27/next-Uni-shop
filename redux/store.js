@@ -5,7 +5,7 @@ import overall  from "./slices/overall.js";
 
 export const store = configureStore({
   reducer: {
-    genaralFunctions: overall ,
+    generalFunctions: overall ,
   },
     
 })

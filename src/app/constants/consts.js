@@ -35,7 +35,10 @@ export const email = "example@gmail.com";
 export const productsLists = {
   'cars':[
     'bmw',
-    'kia'
+    'kia',
+    'audi',
+    'haval',
+    'toyota'
   ],
   'phones':[
     "Apple",

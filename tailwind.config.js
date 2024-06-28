@@ -13,6 +13,21 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontSize:{
+        "descrideText": "var(--descrideText)",
+        "buttonsText": "var(--buttonsText)",
+        "buttonsPrimaryText": "var(--buttonsPrimaryText)",
+        "buttonsSecondaryText": "var(--buttonsSecondaryText)",
+
+        },
+        backgroundColor:{
+        "bgPrimarySlate": "var(--bgPrimarySlate)",
+        "bgPrimarySlateActive": "var(--bgPrimarySlateActive)",
+
+      },
+      boxShadow:{
+        "btn":"var(--btn)"
+      }
     },
   },
   plugins: [

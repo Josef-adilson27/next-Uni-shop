@@ -1,20 +1,44 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import Pagination from "../Pagination";
+import Pagination from "../../../../Pagination";
 import UsePagination from "@/app/CustomHooks/UsePagination";
 
+//данный компонент использутеся в [categories]
 
 const Cars = ({ data }) => {
+  
+ const { paginate, currentProducts, DataPerPage, DataLength } = UsePagination(data);
 
-  const [Data, setData] = useState(data);
+  const [addLoc, setAddLoc] = useState(() => {
+    if (typeof window !== "undefined" && window.localStorage) {
+      if (window.localStorage.getItem("viewed") === "null") {
+        return [];
+      } else {
+        return window.JSON.parse(localStorage.getItem("viewed"));
+      }
+    }
+  });
 
-    ///1.передаем массив данных в кост. хук UsePagination
-    ///2.берем обработанные данные из  кос. хука UsePagination чтобы передать их компонент Pagination
+ 
+  useEffect(() => {
+    window.localStorage.setItem("viewed", JSON.stringify([...new Map(addLoc?.map((item)=>[item["id"],item])).values()]));
+  }, [addLoc]);
 
-  const { paginate, currentProducts, DataPerPage, DataLength } =
-  UsePagination(Data);
+  ///1.передаем массив данных в кост. хук UsePagination
+  ///2.берем обработанные данные из  кос. хука UsePagination чтобы передать их компонент Pagination
+
+
+  let add = (param) => {
+    if(addLoc?.length===0){
+    setAddLoc((current) => [...current, param]);
+    localStorage.setItem("viewed", JSON.stringify(addLoc));
+   }else if(addLoc.length>0) {
+    setAddLoc((current) => [...current,param]);
+    localStorage.setItem("viewed", JSON.stringify(addLoc)); 
+   }
+};
 
   return (
     <div className="w-full">
@@ -49,7 +73,10 @@ const Cars = ({ data }) => {
               </div>
               <div className="flex flex-col flex-1 items-center justify-center p-2 h-full">
                 <Link href={`cars/product/${item.make}/details/${item.id}`}>
-                  <button className="bg-[grey] w-[120px] h-[30px] rounded-md">
+                  <button
+                    onClick={() => add(item)}
+                    className="bg-[grey] w-[120px] h-[30px] rounded-md"
+                  >
                     See more
                   </button>
                 </Link>

@@ -3,27 +3,41 @@ import { LuSearch } from "react-icons/lu";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
-const ItemsSearch = ({ list, category }) => {
+const ProductSearch = ({ list, category }) => {
   const [inputValue, setInputValue] = useState("");
   const [listToggle, setListToggle] = useState(false);
   const [lists, setLists] = useState([]);
 
-  const [historyLists, setHistoryLists] = useState(
-    JSON.parse(localStorage.getItem("history")) || []
-  );
+  const [historyLists, setHistoryLists] = useState(() => {
+    if (typeof window !== "undefined" && window.localStorage) {
+      if (window.localStorage.getItem("history") === "null") {
+        return [];
+      } else {
+        return window.JSON.parse(localStorage.getItem("history"));
+      }
+    }
+  });
+
+
 
   useEffect(() => {
-    localStorage.setItem("history", JSON.stringify(historyLists));
+    window.localStorage.setItem(
+      "history",
+      JSON.stringify([
+        ...new Map(historyLists?.map((item) => [item["id"], item])).values(),
+      ])
+    );
   }, [historyLists]);
 
   //фильтр запрсов
   useEffect(() => {
-    const filterBySearch = list.filter((item) => {
-      if (item.toLowerCase().includes(inputValue.toLowerCase())) {
-        return item;
-      }
-    });
-    setLists(filterBySearch);
+    setLists(
+      list.filter((item) => {
+        if (item.toLowerCase().includes(inputValue.toLowerCase())){
+          return item;
+        }
+      })
+    );
   }, [inputValue, listToggle]);
 
   //prodistsList toggle button-icons
@@ -49,7 +63,7 @@ const ItemsSearch = ({ list, category }) => {
   const historyList = () => {
     return (
       <div>
-        {!!historyLists.length && (
+        {!!historyLists?.length && (
           <div className="bg-slate-500 m-1 text-white flex flex-col p-1 rounded-[5px]">
             <div className="  flex justify-between">
               <span className="cursor-pointer">history</span>
@@ -103,7 +117,7 @@ const ItemsSearch = ({ list, category }) => {
 
   const searchBTNClickHandler = () => {
     if (inputValue !== "") {
-      setHistoryLists((prev) => Array.from(new Set([...prev, inputValue])));
+      setHistoryLists((prev) => Array?.from(new Set([...prev, inputValue])));
     }
   };
 
@@ -138,4 +152,4 @@ const ItemsSearch = ({ list, category }) => {
   );
 };
 
-export default ItemsSearch;
+export default ProductSearch;

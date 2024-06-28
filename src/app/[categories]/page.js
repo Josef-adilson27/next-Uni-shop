@@ -10,9 +10,10 @@ const Page = async ({ searchParams }) => {
   const product = searchParams.item;
   let URL = ''
 
-  // эти переменные (category, product) нужны когда:
-  //1.сategory - переменная подставлятеся при переходе в категорию 
-  //2.product  - переменная подставлятеся для фильтрации категории по названию товаров
+  //переменные (category, product):
+  //1.сategory - переменная подставлятеся при обычном переходе в категорию 
+
+  //2.product  - переменная подставлятеся для фильтрации категории по названию товаров (т.е из searchComponent/ItemsSearch )
 
   if(category&&product){
     // получаем и фильтруем категорию по названию
@@ -31,8 +32,7 @@ const Page = async ({ searchParams }) => {
   const data = await get();
 
 
-
-  ///здесь динамически подставляем компонент для отображения товаров
+  ///здесь динамически подставляем компонент для отображения товаров согласно переданным данным (т.е categories category и product )
   const ComponentsRender = () => {
     switch (searchParams.category) {
       case "cars":
