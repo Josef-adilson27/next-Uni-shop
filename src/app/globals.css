@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "primeicons/primeicons.css";
-@import 'components/cars/CarsAdditionalStyles.css';
+
+
 
 :root {
   --descrideText: 25px;
@@ -13,9 +13,6 @@
   --bgPrimarySlate: #dbdde3;
   --bgPrimarySlateActive: #ffffff;
 }
-
-
-
 
 body {
   padding: 0;
