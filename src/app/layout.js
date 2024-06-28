@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./globals.css";
-import { ReduxProvider } from "../../redux/provider";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
             <Header></Header>
             <main className="w-full p-2">
               <div>
-                <ReduxProvider>{children}</ReduxProvider>
+               {children}
               </div>
             </main>
           </div>
