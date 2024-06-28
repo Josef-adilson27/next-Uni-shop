@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "primeicons/primeicons.css";
-@import 'components/cars/CarsAdditionalStyles.css';
+
 
 :root {
   --descrideText: 25px;
