@@ -22,7 +22,7 @@ useEffect(()=>{
 },[])
 
 
-  var settings = {
+  const settings = {
     dots: false,
     arrows: false,
     infinite: false,
@@ -63,9 +63,9 @@ useEffect(()=>{
         {viewedCars?.map((item) => (
           <div
             key={item.id}
-            className="flex overflow-hidden h-[450px] [border-right:solid_3px_transparent]"
+            className="flex overflow-hidden h-[450px] [border-right:solid_3px_transparent] "
           >
-            <div className="w-full min-h-full flex flex-col rounded-[10px] overflow-hidden bg-yellow-100">
+            <div className="w-full min-h-full flex flex-col rounded-[10px] overflow-hidden bg-slate-200">
               <Image
                 className="w-full h-[230px] object-cover"
                 width={300}
@@ -109,7 +109,7 @@ useEffect(()=>{
     return (
       <>
         <button
-          className="flex-1 mr-1 flex justify-center items-center rounded-[10px] rounded-bl-[10px] [transition:all_0.3s_ease-out] hover:bg-slate-300 max-lg:hidden"
+          className="flex-1 mr-1 flex justify-center items-center rounded-[10px] rounded-bl-[10px] [transition:all_0.3s_ease-out] hover:bg-slate-200 max-lg:hidden"
           onClick={() => slider?.current?.slickPrev()}
         >
           <SlArrowLeft size={25} />
@@ -121,7 +121,7 @@ useEffect(()=>{
                 key={item.id}
                 className="flex overflow-hidden h-[440px] [border-right:solid_3px_transparent]"
               >
-                <div className="w-full min-h-full flex flex-col rounded-[10px] overflow-hidden bg-yellow-50">
+                <div className="w-full min-h-full flex flex-col rounded-[10px] overflow-hidden bg-slate-200">
                   <Image
                     className="w-full h-[230px] object-cover"
                     width={300}
@@ -148,7 +148,7 @@ useEffect(()=>{
                   <div className=" flex flex-col justify-around gap-5 px-3">
                     <p className="text-descrideText">{item.price} $</p>
                     <div className="flex justify-center  ">
-                      <button className="bg-green-100 w-full py-2 rounded-xl">
+                      <button className=" bg-amber-400 w-full py-2 rounded-xl">
                         Request a call
                       </button>
                     </div>
@@ -159,7 +159,7 @@ useEffect(()=>{
           </Slider>
         </div>
         <button
-          className="flex-1 ml-1 flex justify-center items-center rounded-[10px] rounded-bl-[10px] [transition:all_0.3s_ease-out] hover:bg-slate-300 max-lg:hidden"
+          className="flex-1 ml-1 flex justify-center items-center rounded-[10px] rounded-bl-[10px] [transition:all_0.3s_ease-out] hover:bg-slate-200 max-lg:hidden"
           onClick={() => slider?.current?.slickNext()}
         >
           <SlArrowRight size={25} />

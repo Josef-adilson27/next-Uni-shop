@@ -68,9 +68,7 @@ const Slider = ({ data }) => {
         />
       </div>
 
-      <div
-        className={`${style.div2} scrollbar scrollbar-thumb-gray-700 scrollbar-track-slate-800`}
-      >
+      <div className={`${style.div2} flex gap-1 scrollbar scrollbar-thumb-gray-700 scrollbar-track-slate-800`}>
         {data.map((item, i) => (
           <Image
             onClick={() => setImages(data[i])}
@@ -83,10 +81,11 @@ const Slider = ({ data }) => {
           />
         ))}
       </div>
-
+      
         <div className=" max-sm:hidden">
          {imageStrech && popUp()}
         </div>
+
     </div>
   );
 };

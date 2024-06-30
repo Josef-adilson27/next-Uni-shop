@@ -18,7 +18,6 @@
 
   .div2 {
     grid-area: 2 / 1 / 3 / 2;
-    margin-top: 7px;
     display: flex;
     overflow-y: hidden;
     height: 170px;

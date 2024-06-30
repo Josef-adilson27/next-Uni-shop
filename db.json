@@ -58,7 +58,15 @@
             "https://ucarecdn.com/bd276d8d-a6f1-409f-bc10-79204ee4a86d/-/preview/1000x666/",
             "https://ucarecdn.com/2323d5e9-5169-4e2a-8777-00d4e716bfac/-/preview/1000x666/"
 
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Audio System","USB","12V socket","Android Auto","CarPlay"],
+            "Comfort":["Power steering","Multifunction steering wheel","Climate: air conditioning","Tire pressure sensor"],
+            "Safety":["Anti-lock brake system (ABS)","Driver airbag","Passenger airbag","Child seat mount (rear row)","ERA-GLONASS"],
+            "Review":["Heated mirrors","Electrically adjustable mirrors"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Third rear headrest","Passenger seat backrest folding function Upholstery","Upholstery: fabric","Door sills"]
+          }
         },
         {
           "id": "44ffgh52",
@@ -82,7 +90,15 @@
             "https://ucarecdn.com/e9fab92e-82fb-423a-b86f-81f7f3c38417/-/preview/1000x750/",
             "https://ucarecdn.com/e870d404-5bf4-46b8-92e0-376021ea569f/-/preview/1000x750/",
             "https://ucarecdn.com/174a0306-f89f-4f63-b1b4-604a77d93645/-/preview/1000x750/"
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Audio System","USB","12V socket","Android Auto","CarPlay"],
+            "Comfort":["Power steering","Multifunction steering wheel","Climate: air conditioning","Tire pressure sensor"],
+            "Safety":["Anti-lock brake system (ABS)","Driver airbag","Passenger airbag"],
+            "Review":["Heated mirrors","Heating of windshield washer nozzles","Headlights: LED"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Third rear headrest","Upholstery: fabric","Door sills"]
+          }
         },
         {
           "id": "44f52",
@@ -107,7 +123,15 @@
             "https://ucarecdn.com/0e4789cd-9686-4453-9578-2377a5b37051/-/preview/1000x750/",   
             "https://ucarecdn.com/84c11581-40a1-49da-a4e8-eb8d62b2f7c3/-/preview/1000x750/",
             "https://ucarecdn.com/59b9de71-3bbc-430e-b572-9851773ef64c/-/preview/1000x750/" 
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Audio System","USB","12V socket","Android Auto","CarPlay"],
+            "Comfort":["Climate: air conditioning"],
+            "Safety":["Anti-lock brake system (ABS)","Driver airbag","Passenger airbag","Electronic Stabilization System (ESP / ESC / DSC / VSA","Traction control (ASR / TCS / TRC)"],
+            "Review":["Heated mirrors","Heating of windshield washer nozzles","Headlights: LED"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Third rear headrest","Upholstery: fabric","Door sills"]
+          }
         },
         {
           "id": "44444f52",
@@ -131,7 +155,15 @@
             "https://ucarecdn.com/d16b7f6f-93bd-4229-b5f3-4904665ab84b/-/preview/1000x750/",
             "https://ucarecdn.com/9fbfec3b-0af6-476d-8d52-6c31ce665cd0/-/preview/1000x750/",
             "https://ucarecdn.com/1c8010dc-4b98-4b31-91df-1a26974f0e36/-/preview/1000x750/"
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Audio System","USB"],
+            "Comfort":["Climate: air conditioning"],
+            "Safety":["Anti-lock brake system (ABS)","Electronic Stabilization System (ESP / ESC / DSC / VSA","Traction control (ASR / TCS / TRC)"],
+            "Review":["Heated mirrors"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Third rear headrest","Upholstery: fabric","Door sills"]
+          }
         },
         {
             "id": "4fgazzzf52",
@@ -154,7 +186,15 @@
               "https://ucarecdn.com/ac1cea9a-0129-4d4b-8a2c-d1ed9db636bc/-/preview/1000x750/",
               "https://ucarecdn.com/bf08ff5c-c5f3-492d-bd87-e51121f8b4a6/-/preview/1000x750/",
               "https://ucarecdn.com/e685a2a2-7e13-4825-9f36-6ee7249d058b/-/preview/1000x750/"
-            ]
+            ],
+            "equipment":{
+              "Multimedia":["On-board computer","Audio System","USB"],
+              "Comfort":["Climate: air conditioning"],
+              "Safety":["Anti-lock brake system (ABS)","Electronic Stabilization System (ESP / ESC / DSC / VSA","Traction control (ASR / TCS / TRC)"],
+              "Review":["Heated mirrors"],
+              "Anti-theft protection":["central locking","Immobilizer"],
+              "Salon":["Third rear headrest","Upholstery: fabric","Door sills"]
+            }
         },
         {
           "id": "zghfff52",
@@ -178,7 +218,15 @@
             "https://ucarecdn.com/e756dbcf-a228-4898-ae82-f2de2abc8d1d/-/preview/1000x750/",
             "https://ucarecdn.com/8fe45bc0-5828-40a4-82c0-14fa37e94d16/-/preview/1000x750/",
             "https://ucarecdn.com/b84dd2d2-c9b5-47cd-8dda-94a0dfe098e3/-/preview/1000x750/"
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Audio System","USB"],
+            "Comfort":["Climate: air conditioning"],
+            "Safety":["Anti-lock brake system (ABS)","Electronic Stabilization System (ESP / ESC / DSC / VSA","Traction control (ASR / TCS / TRC)"],
+            "Review":["Heated mirrors"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Third rear headrest","Upholstery: fabric","Door sills"]
+          }
         },
         {
           "id": "5550023",
@@ -202,7 +250,15 @@
            "https://ucarecdn.com/78bbc162-9f74-4c14-a04c-b8b7950a1d15/-/preview/1000x750/",
            "https://ucarecdn.com/175bdb90-5a97-4e28-980e-cda2f2a72bb3/-/preview/1000x750/",
            "https://ucarecdn.com/ee48cfd7-10ff-4d32-9f42-c4babaf51b00/-/preview/1000x750/"
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Audio System","USB","12V socket","Android Auto","CarPlay"],
+            "Comfort":["Climate: air conditioning"],
+            "Safety":["Anti-lock brake system (ABS)","Driver airbag","Passenger airbag","Electronic Stabilization System (ESP / ESC / DSC / VSA","Traction control (ASR / TCS / TRC)"],
+            "Review":["Heated mirrors","Heating of windshield washer nozzles","Headlights: LED"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Third rear headrest","Upholstery: fabric","Door sills"]
+          }
         },
         {
           "id": "rrrr23",
@@ -227,7 +283,15 @@
            "https://ucarecdn.com/89ab9f8c-7251-4d6a-ba70-9d84a5007baf/-/preview/1000x750/",
            "https://ucarecdn.com/7cf19bad-6a3e-4bef-8f83-a93d34069aa7/-/preview/1000x750/"
           
-          ]
+          ],
+          "equipment":{
+            "Multimedia":["On-board computer","Android Auto","CarPlay"],
+            "Comfort":["Climate: air conditioning"],
+            "Safety":["Anti-lock brake system (ABS)","Passenger airbag","Electronic Stabilization System (ESP / ESC / DSC / VSA","Traction control (ASR / TCS / TRC)"],
+            "Review":["Heating of windshield washer nozzles","Headlights: LED"],
+            "Anti-theft protection":["central locking","Immobilizer"],
+            "Salon":["Upholstery: fabric","Door sills"]
+          }
         }    
       ]
     },
@@ -261,6 +325,7 @@
             "https://ucarecdn.com/f125dc6c-15b5-4296-8fb8-e470493a4461/-/preview/484x977/",
            "https://ucarecdn.com/9b79ecd3-9afe-4e5c-a346-fc5f07c4b40b/-/preview/993x992/"
           ]
+      
         },
         {
           "id": "4ikk3d",
@@ -289,6 +354,7 @@
            "https://ucarecdn.com/dd1d5fe2-abd6-4d69-9673-2184f3d0d830/-/preview/425x579/"
          
           ]
+     
         },
         {
           "id": "99tgg",
@@ -317,6 +383,7 @@
            "https://ucarecdn.com/d9a10050-78fb-45e5-8966-8e078df50810/-/preview/425x425/"
          
           ]
+    
         },
         {
           "id": "3232ff",
@@ -370,6 +437,7 @@
            "https://ucarecdn.com/9f4038e2-87f9-4579-aaee-2209a5d45c77/-/preview/425x425/",
            "https://ucarecdn.com/1a2747f5-f232-4742-ab38-9262b880b9bf/-/preview/425x425/"
           ]
+  
         },
         {
           "id": "99998",
@@ -478,6 +546,7 @@
            "https://ucarecdn.com/fec98418-d231-4dad-8936-4830d79debf9/-/preview/425x425/",
            "https://ucarecdn.com/b5bfe79a-4e82-4307-951c-08f61f77b8aa/-/preview/100x100/"
           ]
+          
         }     
       ]
     }

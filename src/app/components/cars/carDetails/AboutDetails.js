@@ -63,12 +63,12 @@ const AboutDetails = ({ data }) => {
 
   const [toggle,setToggle] = useState(false);
  
-  
+  console.log(toggle);
   return (
     <div className={`w-full h-auto max-[1200px]:h-auto gap-2 flex max-[1200px]:flex-col`}>
      {/* // 1 part */}
-      <div className={`w-[60%] flex flex-col justify-between ${toggle?'h-[300px]':'h-[700px]'} [transition:all_0.3s] max-[1200px]:w-full  rounded-xl bg-white`}>
-        <div className={`w-full  relative overflow-hidden ${toggle?'overflow-hidden':'overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-slate-700 '} h-full`}>
+      <div className={`w-[60%] flex flex-col justify-between ${!toggle?'h-[300px]':'h-[700px]'} [transition:all_0.3s] max-[1200px]:w-full  rounded-xl bg-white shadow`}>
+        <div className={`w-full  relative overflow-hidden ${!toggle?'overflow-hidden':'overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-slate-700 '} h-full`}>
           <div className="w-full flex h-auto py-2  flex-col gap-2 absolute">
             {Object.entries(data)?.map(([key, value]) => (
               <div className="w-full p-2 px-7 h-auto  flex flex-col flex-wrap max-md:flex-nowrap">
@@ -84,12 +84,12 @@ const AboutDetails = ({ data }) => {
         <div className="flex items-center w-full h-[80px] text-[18px] px-7 gap-3 rounded-b-xl bg-slate-200">
           <div onClick={()=>setToggle(!toggle)} className=" flex gap-2">
           <button  >Expand all options</button>   
-          <IoIosArrowDropdown  className={toggle=='300'?`transform rotate-0  [transition:all_0.5s]`:`transform rotate-180 [transition:all_0.5s]`} size={25}/>
+          <IoIosArrowDropdown  className={toggle?`transform rotate-180  [transition:all_0.5s]`:`transform rotate-0 [transition:all_0.5s]`} size={25}/>
           </div>
         </div>
       </div>
       {/* 2 part */}
-      <div className="w-[40%] max-h-[300px]  bg-white  rounded-xl gap-1 max-[1200px]:w-full max-[1200px]:flex-row max-[768px]:flex-col flex flex-col">
+      <div className="w-[40%] max-h-[300px]  bg-white  rounded-xl gap-1 max-[1200px]:w-full max-[1200px]:flex-row max-[768px]:flex-col flex flex-col shadow">
         <div className="flex flex-col w-full h-full p-3 max-[1200px]:h-full  ">
           {/* ////// */}
           <div className="w-full flex justify-between max-2xl:flex-col">

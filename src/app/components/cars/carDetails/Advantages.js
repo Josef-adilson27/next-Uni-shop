@@ -17,7 +17,7 @@ const Advantages = () => {
         </div>
        <div className="flex gap-1 w-[1300px] font-bold max-2xl:w-full max-2xl:flex-col max-2xl:items-center justify-center py-[10px] b">       
           <div className="flex items-center gap-1 w-[650px]  h-[200px] max-2xl:w-full  max-sm:h-[180px]  ">
-            <div className={`w-[50%] flex items-center justify-center rounded-2xl  h-full bg-white`}>
+            <div className={`w-[50%] flex items-center justify-center rounded-2xl  h-full bg-white shadow` }>
               <div>
                  <img
                 className="w-[200px] rounded-lg"
@@ -26,7 +26,7 @@ const Advantages = () => {
                   <p className='text-center'>32 cities of presence</p>
               </div>
             </div>
-            <div className={`w-[50%] flex items-center flex-col justify-center rounded-2xl  h-full bg-white`}>
+            <div className={`w-[50%] flex items-center flex-col justify-center rounded-2xl  h-full bg-white shadow`}>
              
                  <img
                 className="w-[200px] rounded-lg"
@@ -37,7 +37,7 @@ const Advantages = () => {
             </div>
           </div>
           <div className="flex items-center gap-1 w-[650px] h-[200px] max-2xl:w-full  max-sm:h-[180px]  ">
-          <div className={`w-[50%] flex items-center justify-center rounded-2xl  h-full bg-white`}>
+          <div className={`w-[50%] flex items-center justify-center rounded-2xl  h-full bg-white shadow`}>
               <div>
                  <img
                 className="w-[200px] rounded-lg"
@@ -46,7 +46,7 @@ const Advantages = () => {
                   <p className='text-center'>On the market since 2001</p>
               </div>
             </div>
-            <div className={`w-[50%] flex items-center justify-center rounded-2xl  h-full bg-white`}>
+            <div className={`w-[50%] flex items-center justify-center rounded-2xl  h-full bg-white shadow`}>
               <div>
                  <img
                 className="w-[200px] rounded-lg"

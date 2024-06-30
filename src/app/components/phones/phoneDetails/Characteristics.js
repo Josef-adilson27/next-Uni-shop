@@ -30,12 +30,12 @@ const Characteristics = ({data}) => {
   return(
     <div className="w-full rounded-[15px]  overflow-hidden ff bg-white flex flex-col justify-center">
     <span className="font-bold p-2">Factory data</span>
-    {GeneralParameters.map((item, index) => (
-      <div key={item.value} className="flex justify-between w-full font-light   text-[20px] max-md:text-[16px] ">
+    {GeneralParameters.map((item, index) => ( 
+      <div key={item.value} className="flex justify-between w-full font-light     text-[20px] max-md:text-[16px] ">
         {index % 2 == 0 ? (
           <div
             key={item.key}
-            className="w-full  flex justify-between p-2 bg-bgPrimarySlate"
+            className="w-full bg-slate-200  flex justify-between p-2 bg-bgPrimarySlate"
           >
             <span className="flex-2 flex max-sm:w-[100px] max-md:flex-col max-md:justify-center">
               {item.key}
@@ -47,7 +47,7 @@ const Characteristics = ({data}) => {
         ) : (
           <div
           key={item.key}
-          className="w-full  flex justify-between p-2 "
+          className="w-full  flex justify-between p-2  "
         >
           <span className="flex-2 flex max-sm:w-[100px] max-md:flex-col max-md:justify-center">
             {item.key}

@@ -19,11 +19,11 @@ const MainDetails = ({ data }) => {
     <div className="flex justify-center">
       <div className="flex w-[1700px] items-center flex-col gap-2 ">
         <DetailsHeader param={data[0]}/>
-        <div className="w-full border flex rounded-[15px]  bg-white max-2xl:flex-col">
+        <div className="w-full border flex rounded-[15px]  bg-white max-2xl:flex-col shadow">
           <div className="flex max-2xl:justify-center">
             <Slider data={data[0].img} />
           </div>
-          <div className="flex px-[10px] flex-1 gap-5 justify-between max-[500px]:flex-col">
+          <div className="flex px-[10px] flex-1 gap-5 justify-between max-[500px]:flex-col ">
             <MainCharacteristics param={data[0]} />
             <Services />
           </div>
